@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>NBA FORM</title>
+</head>
+<body>
+    <h1 id="title">How can the NBA improve their entertainment value?</h1>
+    <p id="description">Thank you for taking the time to help the NBA improve</p>
+    <form id="survey-form">
+    <div class="input-element"> 
+    <label id="name-label">
+      Name
+    </label>
+    <input placeholder="name" id="name" type="text" required/>
+  </div>
+  <div class="input-element"> 
+    <label id="email-label">
+      Email
+    </label>
+    <input placeholder="email" id="email" type="email" required/>
+  </div>
+  <div class="input-element"> 
+    <label id="number-label">
+      Age
+    </label>
+    <input placeholder="age" id="number" type="number" min="8" max="100" required/>
+  </div>
+    <div class="input-element"> 
+    <label id="select-label">
+      Who's your favorite team?
+    </label>
+    <select id="dropdown">
+      <option>Mavericks</option>
+      <option>Lakers</option>
+      <option>Rockets</option>
+    </select>
+  </div>
+  <div class="input-element">
+    <label>Have you been to a game before?</label>
+    <div>
+    <label><input type="radio" name="game" value="game"/>Yes</label>
+    </div>
+    <div>
+    <label><input type="radio" name="game" value="game"/>No</label>
+    </div>
+  </div>
+  <div class="input-element">
+    <label>Which suggestion are good ideas for NBA to implement?</label>
+    <div>
+    <label><input type="checkbox" name="ideas" value="playin"/>Play in game</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="ideas" value="tickets"/>Cheaper ticket</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="ideas" value="food"/>Cheaper food</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="ideas" value="show"/>More halftime show</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="ideas" value="calls"/>Less reff calls</label>
+    </div>
+  </div>
+  <div class="input-element">
+    <label>Additional Comments</label>
+    <textarea type="text"></textarea>
+  </div>
+  <Button type="submit" id="submit">
+    Submit
+    </button>
+</form>
+</body>
+</html>
